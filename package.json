@@ -1,0 +1,22 @@
+{
+  "name": "spec-factory",
+  "version": "1.0.0",
+  "description": "AI software factory pipeline E2E tester — validates nexus-agents execute_spec, query_trace, and registry_import MCP tools",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["spec", "factory", "pipeline", "mcp", "nexus-agents", "e2e-test"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  }
+}
